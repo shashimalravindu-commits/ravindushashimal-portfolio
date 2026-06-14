@@ -21,8 +21,26 @@ html{
 }
 
 body{
-    background:#020b1d;
-    color:#ffffff;
+    background: linear-gradient(-45deg,#020b1d,#061b40,#02152f,#000814);
+    background-size:400% 400%;
+    animation:gradient 15s ease infinite;
+    color:white;
+}
+
+@keyframes gradient{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
 }
 
 /* ===========================
