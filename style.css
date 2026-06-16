@@ -591,5 +591,60 @@ transform:translateY(-100vh) scale(2);
     font-size:14px;
     font-weight:600;
 }
+```css
+.contact-subtitle{
+    text-align:center;
+    color:#d0d0d0;
+    max-width:700px;
+    margin:0 auto 50px;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.contact-card{
+    background:#111827;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    transition:0.3s;
+    border:1px solid rgba(79,140,255,0.2);
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(79,140,255,0.4);
+}
+
+.contact-card h3{
+    color:#4f8cff;
+    margin-bottom:15px;
+}
+
+.contact-card p,
+.contact-card a{
+    color:white;
+    text-decoration:none;
+}
+
+.contact-card a:hover{
+    color:#4f8cff;
+}
+
+.contact-button{
+    text-align:center;
+    margin-top:50px;
+}
+
+.contact-button button{
+    padding:15px 40px;
+    font-size:18px;
+}
 ```
+
 
