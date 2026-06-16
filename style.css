@@ -727,3 +727,14 @@ transform:translate(-180px,-100px);
     justify-content:center;
     padding:100px 8%;
 }
+#about{
+    scroll-margin-top:90px;
+}
+
+#about{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
