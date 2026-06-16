@@ -62,12 +62,14 @@ background-position:0% 50%;
 =========================== */
 
 header{
-    position:sticky;
+    position:fixed;
     top:0;
+    left:0;
     width:100%;
-    background:#020b1d;
+    padding:20px 50px;
+    background:rgba(2,11,29,0.85);
+    backdrop-filter:blur(10px);
     z-index:1000;
-    padding:20px 5%;
 }
 
 nav{
