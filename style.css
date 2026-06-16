@@ -738,3 +738,24 @@ transform:translate(-180px,-100px);
     justify-content:center;
     align-items:center;
 }
+#about{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    scroll-margin-top:80px;
+}
+
+.about-wrapper{
+    width:100%;
+}
+
+.about-container{
+    display:flex;
+    justify-content:center;
+}
+
+.about-card{
+    max-width:1000px;
+    width:100%;
+}
