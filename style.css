@@ -539,4 +539,51 @@ transform:translateY(-100vh) scale(2);
     color:white;
 }
 ```
+```css
+.certificate-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.certificate-card{
+    background:#111827;
+    padding:30px;
+    border-radius:18px;
+    transition:0.3s;
+    text-align:center;
+    border:1px solid rgba(79,140,255,0.2);
+}
+
+.certificate-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(79,140,255,0.4);
+}
+
+.certificate-icon{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.certificate-card h3{
+    color:#4f8cff;
+    margin-bottom:12px;
+}
+
+.certificate-card p{
+    color:#d0d0d0;
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+.certificate-year{
+    display:inline-block;
+    padding:6px 14px;
+    background:#1f2937;
+    color:#4f8cff;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+```
 
