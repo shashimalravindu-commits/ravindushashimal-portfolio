@@ -62,14 +62,14 @@ background-position:0% 50%;
 =========================== */
 
 header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    padding:20px 50px;
-    background:rgba(2,11,29,0.85);
-    backdrop-filter:blur(10px);
-    z-index:1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 5%;
+    background: rgba(2,11,29,0.85);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 nav{
@@ -79,13 +79,9 @@ nav{
 }
 
 .logo{
-
-font-size:42px;
-
-font-weight:700;
-
-color:#4f8cff;
-
+    font-size: 32px;
+    font-weight: 700;
+    color: #4f8cff;
 }
 
 nav ul{
